@@ -26,10 +26,13 @@ const objSpread = {
 
 // 3) rest operator
 
-const restOperatorfunction = (...friends:string[]){
-    friends.forEach((friend:string) => console.log(friend))
+const restOperatorfunction = (...friends:string[])=>{
+    friends.forEach((friend:string) => {
+        console.log(friend)
+        return[friend]
+    })
 }
-
+restOperatorfunction("sayem","anas")
 // note : it is used bcz we can dynamically pass value when we call function
 
 

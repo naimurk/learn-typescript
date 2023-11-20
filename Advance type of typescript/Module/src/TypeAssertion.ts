@@ -25,7 +25,7 @@
     }
   };
 
-  const result = kgToGram("1000") as number;
+  const result = kgToGram('1000') as number;
   //   note: the function will be receive number and string , when i call the function we can specifically say that it will be number or string and typescript not to checkt it whether it number or string
 
   //  3) assertion use in type alias

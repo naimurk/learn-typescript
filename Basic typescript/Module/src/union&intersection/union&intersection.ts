@@ -26,7 +26,7 @@
 
   // 4) function union with type alias
   type UnionFunction =
-    | ((a: number, b: number) => number)
+     ((a: number, b: number) => number)
     | ((a: string, b: string) => string | number);
 
   // 5) normal intersection with type alias and literal type
